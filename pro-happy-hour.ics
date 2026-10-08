@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Usource Technology Inc//Pro Happy Hour//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pro-happy-hour-20261022@usource.com
+DTSTAMP:20261008T120000Z
+DTSTART;TZID=America/Chicago:20261022T180000
+DTEND;TZID=America/Chicago:20261022T200000
+SUMMARY:uSource Happy Hour for Service Pros
+LOCATION:Kirby Ice House Memorial\, Houston\, TX
+DESCRIPTION:Free drinks and snacks for service Pros.\nThursday\, Oct 22 · 
+ 6–8 PM · Kirby Ice House Memorial\n\nRSVP so we know you're coming:\nht
+ tps://forms.zohopublic.com/usourcetechnologyinc1/form/ProAppreciationDay/f
+ ormperma/1IY5Dp54KX3_N1jfEyamy52irczpSHXz6_NQWoVnPTs?utm_source=Zoho+Email
+ s&utm_medium=Email&utm_campaign=Pro+Appreciation+Day&utm_id=Pro+Appreciati
+ on+Campaign+Email+1
+URL:https://forms.zohopublic.com/usourcetechnologyinc1/form/ProAppreciation
+ Day/formperma/1IY5Dp54KX3_N1jfEyamy52irczpSHXz6_NQWoVnPTs?utm_source=Zoho+
+ Emails&utm_medium=Email&utm_campaign=Pro+Appreciation+Day&utm_id=Pro+Appre
+ ciation+Campaign+Email+1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:uSource Happy Hour for Service Pros
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
