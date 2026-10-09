@@ -22,21 +22,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pro-happy-hour-20261022@usource.com
-DTSTAMP:20261008T120000Z
+SEQUENCE:1
+DTSTAMP:20261009T120000Z
 DTSTART;TZID=America/Chicago:20261022T180000
 DTEND;TZID=America/Chicago:20261022T200000
 SUMMARY:uSource Happy Hour for Service Pros
 LOCATION:Kirby Ice House Memorial\, Houston\, TX
-DESCRIPTION:Free drinks and snacks for service Pros.\nThursday\, Oct 22 · 
- 6–8 PM · Kirby Ice House Memorial\n\nRSVP so we know you're coming:\nht
- tps://forms.zohopublic.com/usourcetechnologyinc1/form/ProAppreciationDay/f
- ormperma/1IY5Dp54KX3_N1jfEyamy52irczpSHXz6_NQWoVnPTs?utm_source=Zoho+Email
- s&utm_medium=Email&utm_campaign=Pro+Appreciation+Day&utm_id=Pro+Appreciati
- on+Campaign+Email+1
-URL:https://forms.zohopublic.com/usourcetechnologyinc1/form/ProAppreciation
- Day/formperma/1IY5Dp54KX3_N1jfEyamy52irczpSHXz6_NQWoVnPTs?utm_source=Zoho+
- Emails&utm_medium=Email&utm_campaign=Pro+Appreciation+Day&utm_id=Pro+Appre
- ciation+Campaign+Email+1
+DESCRIPTION:Free drinks and snacks for service Pros.\n\nWhen: Thursday\, Oc
+ t 22 · 6–8 PM\nWhere: Kirby Ice House Memorial\nMap: https://maps.app.g
+ oo.gl/Y5JBnQHEenRkPeBf9\n\nBring a valid photo ID (21+ to drink). Bringing
+  a guest? They need one too.\n\nQuestions? help@usource.com
+URL:https://maps.app.goo.gl/Y5JBnQHEenRkPeBf9
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:uSource Happy Hour for Service Pros
