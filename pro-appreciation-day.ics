@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Usource Technology Inc//Pro Appreciation Day//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pro-appreciation-day-20261022@usource.com
+SEQUENCE:0
+DTSTAMP:20261014T150000Z
+DTSTART;TZID=America/Chicago:20261022T180000
+DTEND;TZID=America/Chicago:20261022T200000
+SUMMARY:uSource Pro Appreciation Day
+LOCATION:Kirby Icehouse at Memorial\, 1015 Gessner Rd\, Houston\, TX 77055
+DESCRIPTION:Pro Appreciation Day, our networking event for local Pros.\n\nD
+ rinks and food on us, games with chances to win a prize, and time to meet 
+ local Pros and our team.\n\nWhere: Kirby Icehouse at Memorial\, 1015 Gessn
+ er Rd\, Houston\, TX 77055\nParking is free.\n\nPlans changed? Email socia
+ l@usource.com.\nQuestions? help@usource.com
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:uSource Pro Appreciation Day
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
